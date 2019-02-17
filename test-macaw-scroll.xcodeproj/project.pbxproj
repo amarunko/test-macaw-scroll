@@ -12,9 +12,13 @@
 		30FA54022219782E0023E035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FA54002219782E0023E035 /* Main.storyboard */; };
 		30FA5404221978310023E035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FA5403221978310023E035 /* Assets.xcassets */; };
 		30FA5407221978310023E035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FA5405221978310023E035 /* LaunchScreen.storyboard */; };
+		30FA541022197A190023E035 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FA540F22197A190023E035 /* MainView.swift */; };
+		30FA5412221980280023E035 /* macaw-logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 30FA5411221980280023E035 /* macaw-logo.svg */; };
+		FAD446CC6FF6076AB278DE2F /* Pods_test_macaw_scroll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3110D07CC902D96F3EFCE343 /* Pods_test_macaw_scroll.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		246D220F05FC19038473085E /* Pods-test-macaw-scroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-macaw-scroll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-macaw-scroll/Pods-test-macaw-scroll.debug.xcconfig"; sourceTree = "<group>"; };
 		30FA53F92219782E0023E035 /* test-macaw-scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-macaw-scroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FA53FC2219782E0023E035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30FA53FE2219782E0023E035 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		30FA5403221978310023E035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30FA5406221978310023E035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30FA5408221978310023E035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FA540F22197A190023E035 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		30FA5411221980280023E035 /* macaw-logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "macaw-logo.svg"; sourceTree = "<group>"; };
+		3110D07CC902D96F3EFCE343 /* Pods_test_macaw_scroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_macaw_scroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		320F321FA9EE7CF58336CD1F /* Pods-test-macaw-scroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-macaw-scroll.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-macaw-scroll/Pods-test-macaw-scroll.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD446CC6FF6076AB278DE2F /* Pods_test_macaw_scroll.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				30FA53FB2219782E0023E035 /* test-macaw-scroll */,
 				30FA53FA2219782E0023E035 /* Products */,
+				BC21AF8DE7568CC04A544782 /* Pods */,
+				EB1C21572B8E5B1C3EF3D863 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,41 @@
 		30FA53FB2219782E0023E035 /* test-macaw-scroll */ = {
 			isa = PBXGroup;
 			children = (
-				30FA53FC2219782E0023E035 /* AppDelegate.swift */,
-				30FA53FE2219782E0023E035 /* ViewController.swift */,
+				30FA540E221979F50023E035 /* Sources */,
 				30FA54002219782E0023E035 /* Main.storyboard */,
+				30FA5411221980280023E035 /* macaw-logo.svg */,
 				30FA5403221978310023E035 /* Assets.xcassets */,
 				30FA5405221978310023E035 /* LaunchScreen.storyboard */,
 				30FA5408221978310023E035 /* Info.plist */,
 			);
 			path = "test-macaw-scroll";
+			sourceTree = "<group>";
+		};
+		30FA540E221979F50023E035 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				30FA540F22197A190023E035 /* MainView.swift */,
+				30FA53FE2219782E0023E035 /* ViewController.swift */,
+				30FA53FC2219782E0023E035 /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BC21AF8DE7568CC04A544782 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				246D220F05FC19038473085E /* Pods-test-macaw-scroll.debug.xcconfig */,
+				320F321FA9EE7CF58336CD1F /* Pods-test-macaw-scroll.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB1C21572B8E5B1C3EF3D863 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3110D07CC902D96F3EFCE343 /* Pods_test_macaw_scroll.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30FA540B221978310023E035 /* Build configuration list for PBXNativeTarget "test-macaw-scroll" */;
 			buildPhases = (
+				D674A7940118B837BC0E95B2 /* [CP] Check Pods Manifest.lock */,
 				30FA53F52219782E0023E035 /* Sources */,
 				30FA53F62219782E0023E035 /* Frameworks */,
 				30FA53F72219782E0023E035 /* Resources */,
+				4048BCF41A4C0C3F0B2CB46F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,10 +165,60 @@
 				30FA5407221978310023E035 /* LaunchScreen.storyboard in Resources */,
 				30FA5404221978310023E035 /* Assets.xcassets in Resources */,
 				30FA54022219782E0023E035 /* Main.storyboard in Resources */,
+				30FA5412221980280023E035 /* macaw-logo.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4048BCF41A4C0C3F0B2CB46F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-test-macaw-scroll/Pods-test-macaw-scroll-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Macaw/Macaw.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Macaw.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-macaw-scroll/Pods-test-macaw-scroll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D674A7940118B837BC0E95B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test-macaw-scroll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30FA53F52219782E0023E035 /* Sources */ = {
@@ -136,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30FA53FF2219782E0023E035 /* ViewController.swift in Sources */,
+				30FA541022197A190023E035 /* MainView.swift in Sources */,
 				30FA53FD2219782E0023E035 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +371,7 @@
 		};
 		30FA540C221978310023E035 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246D220F05FC19038473085E /* Pods-test-macaw-scroll.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +390,7 @@
 		};
 		30FA540D221978310023E035 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 320F321FA9EE7CF58336CD1F /* Pods-test-macaw-scroll.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
